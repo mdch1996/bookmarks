@@ -25,7 +25,6 @@ class UserRegistrationForm(forms.ModelForm):
         return cd['password2']
 
 
-
 class UserEditForm(forms.ModelForm):
     class Meta:
         model = User
